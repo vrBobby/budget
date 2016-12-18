@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="budget.css">
+<script type="text/javascript" src="jquery-3.1.1.js" ></script>
+<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css">
+	<title>Home Budget</title>
+</head>
+<body>
+<div id="container">
+<h1>Home Budget</h1>
+<div id = "divMonth" class="list">
+<span class = "month" id = "pMonth">Month
+<select id = "month">
+	<option id = "January">January</option>
+	<option id = "Feburary">Feburary</option>
+	<option id = "March">March</option>
+	<option id = "April">April</option>
+	<option id = "May">May</option>
+	<option id = "June">June</option>
+	<option id = "July">July</option>
+	<option id = "August">August</option>
+	<option id = "September">September</option>
+	<option id = "October">October</option>
+	<option id = "November">November</option>
+	<option id = "December">December</option>
+</select></span>
+<a href="Monthly Budget.html?index=test">Years Budget</a>
+</div>
+<div id = "payees" class="list">
+ 
+<p id = "pPayees"></p>
+
+<input type="text" name="entry" id = "addPayee" >Add Payees
+<p id="delInd" >Delete</p>
+<form>
+
+<div id="budgetBox" ><span id = "list"><ol>
+		
+	</ol><p id = "pTotal">$0 Total</p></span></div>
+	
+	</form>
+	
+<p><input type="number" id = "income">
+ Income</p> 
+<p id = "total"> </p>
+<p><button id="tt">Total</button></p>
+
+</div>
+<script type="text/javascript" src = "budget.js"></script>
+<script type="text/javascript" src = "Monthly Budget.js"></script>
+</div>
+</body>
+</html>
